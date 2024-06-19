@@ -1,0 +1,13 @@
+h1 {
+    background-color: aqua;
+    color: red;
+}
+
+p {
+    background-color: blanchedalmond;
+    color: blueviolet;
+    font-family: cursive;
+    border: solid 5px red;
+    padding: 20px;
+    margin: 30px;
+}
