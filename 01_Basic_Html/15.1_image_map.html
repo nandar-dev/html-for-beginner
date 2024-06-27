@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+</head>
+
+<body>
+
+    <img src="./../image.jpg" alt="Image" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="" title="Foot" href="https://google.com" coords="881,712,782,639" shape="rect">
+        <area onclick="clickHead()" target="" alt="" title="Head" href="" coords="591,456,61" shape="circle">
+    </map>
+
+</body>
+
+<script>
+
+    function clickFoot() {
+        alert("Foot clicked");
+    }
+
+    function clickHead() {
+        alert("Head clicked");
+    }
+
+</script>
+
+</html>
