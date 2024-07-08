@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Intro</title>
+</head>
+
+<body>
+
+    <h1>08/07/2024</h1>
+
+    <h1>Hello World 1</h1>
+    <h1>Hello World 2</h1>
+    <h1>Hello World 3</h1>
+
+    <p id="paragraph">The is paragraph</p>
+
+    <button onclick="paraChange()">Change Text</button>
+
+    <h2 class="date">Show Date Here</h2>
+</body>
+
+<script>
+
+    document.getElementsByTagName('h1')[1].innerHTML = "Hello From Javascript"; // List
+
+    function paraChange() {
+        document.getElementById("paragraph").innerHTML = "Javascript Paragraph"; // Single
+        document.getElementById("paragraph").style.backgroundColor = "blue";
+        document.getElementById("paragraph").style.padding = "10px"
+    }
+
+    //  paraChange() // Function called
+
+    document.getElementsByClassName('date')[0].innerHTML = new Date();
+
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</html>
